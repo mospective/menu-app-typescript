@@ -1,0 +1,79 @@
+.container {
+    padding: 0 2rem;
+}
+
+.logo-block {
+    padding: 40px 0 20px;
+    text-align: center;
+    border-bottom: 10px solid var(--white);
+    margin-bottom: 20px;
+}
+
+.logo-block p {
+    font-family: var(--font-1);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 2.8rem;
+    color: var(--white);
+}
+
+.logo-block span {
+    display: block;
+}
+
+.cards {
+    padding: 0 15px 15px;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom: 3px solid var(--white);
+}
+
+.card:last-child {
+    border-bottom: none;
+}
+
+.text {
+    flex-basis: 50%;
+    padding-right: 5px;
+}
+
+.fullwidth {
+    flex-basis: 100%;
+}
+
+.product {
+    font-family: var(--font-2);
+    font-weight: 500;
+    color: var(--beige);
+    font-size: 1.6rem;
+    margin-bottom: 10px
+}
+
+.description {
+    font-family: var(--font-2);
+    font-weight: 300;
+    color: var(--beige-secondary);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-family: var(--font-2);
+    font-weight: 400;
+    color: var(--beige-secondary);
+    font-size: 1.6rem;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    flex-basis: 49%;
+    position: relative;
+}

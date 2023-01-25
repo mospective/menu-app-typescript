@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    border-bottom: 10px solid var(--white);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.navigation li {
+    position: relative;
+    margin: 0 10px;
+}
+
+.navigation li a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: var(--font-2);
+    padding-bottom: 2px;
+}
+.active a {
+    border-bottom: 2px solid var(--beige);
+}
+
